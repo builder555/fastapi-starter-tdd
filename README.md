@@ -51,3 +51,11 @@ Navigate to http://localhost:8000/docs to see the Swagger UI or http://localhost
 │       └── test_module.py
 └── main.py #<-- main application code
 ```
+
+## Running in a Docker container
+
+```
+docker build -t fastapi:latest . && docker run --rm -d -p 8000:8000 fastapi:latest
+```
+
+Navigate to http://localhost:8000/docs to see the Swagger UI or http://localhost:8000/redoc to see ReDoc.

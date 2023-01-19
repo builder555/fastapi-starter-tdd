@@ -39,6 +39,12 @@ pipenv run start:dev
 
 Navigate to http://localhost:8000/docs to see the Swagger UI or http://localhost:8000/redoc to see ReDoc.
 
+To monitor tests while developing, run
+
+```shell
+pipenv run testmon
+```
+
 ## Structure
 
 ```bash

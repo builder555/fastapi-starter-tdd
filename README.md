@@ -1,6 +1,20 @@
 # FastAPI primer
 
+This [FastAPI](https://fastapi.tiangolo.com) starter template provides a simple and efficient way to begin a new web project, including preconfigured setup for test-driven development (TDD).
+
+## Features:
+
+* unit/e2e and mutation testing
+* CORS preconfigured
+* sample allowed-origins
+* example routing in submodule
+
 ## Usage
+
+### Requirements
+
+* python3
+* pipenv
 
 ### Install
 
@@ -12,7 +26,7 @@ pipenv install --dev
 
 ### Run tests
 ```shell
-# unit test
+# unit/e2e test
 pipenv run test
 
 # app/tests/test_main.py .

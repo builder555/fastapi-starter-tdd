@@ -8,6 +8,7 @@ This [FastAPI](https://fastapi.tiangolo.com) starter template provides a simple 
 * CORS preconfigured
 * sample allowed-origins
 * example routing in submodule
+* black code formatter
 
 ## Usage
 

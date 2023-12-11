@@ -9,6 +9,7 @@ def client():
     client = TestClient(_app)
     return client
 
+
 class TestMain:
     def test_ping(self, client):
         response = client.get("/ping")
